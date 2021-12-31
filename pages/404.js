@@ -1,5 +1,5 @@
-import Layout from "../components/Layout"
-import styles from "../styles/NotFound.module.css"
+import Layout from "@/components/Layout"
+import styles from "@/styles/NotFound.module.css"
 import Link from 'next/link';
 import { FaExclamationTriangle } from 'react-icons/fa'
 
