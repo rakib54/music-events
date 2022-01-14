@@ -3,7 +3,6 @@ import Layout from '@/components/Layout'
 import { API_URL } from '@/config/index'
 
 export default function Home({ events }) {
-  console.log(events)
   return (
     <Layout>
       {events.length === 0 && <h3>No Event to show</h3>}
